@@ -67,4 +67,4 @@ def verilerial():
       return render_template("verilerigoster.html",hata="Formdan veri gelmedi!")
 	
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='18.135.78.211', port=5000)
